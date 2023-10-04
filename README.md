@@ -10,11 +10,11 @@ Buon divertimento e a domani!
 | COLONNA               | TIPO          | ATTRIBUTI                            |
 | --------------------- | ------------- | ------------------------------------ |
 | ID AUTO               | BIGINT        | INCREMENT-PRIMATY KEY-AUTO_INCREMENT |
+| IMMAGINE              | TEXT          | NOTNULL                              |
 | MARCA                 | VARCHAR(50)   | NOTNULL                              |
 | MODELLO               | VARCHAR(50)   | NOTNULL                              |
 | ANNO DI FABBRICAZIONE | YEAR          | NOTNULL                              |
-| PREZZO                | DECIMAL (7,2) | NULL                                 |
-| DESCRIZIONE           | TEXT          | NULL                                 |
-| CARBURANTE            | CHAR (30)     | NOTNULL                              |
 | KM                    | INT-UNSIGNED  | NULL                                 |
-| IMMAGINE              | TEXT          | NOTNULL                              |
+| CARBURANTE            | CHAR (30)     | NOTNULL                              |
+| DESCRIZIONE           | TEXT          | NULL                                 |
+| PREZZO                | DECIMAL (7,2) | NULL                                 |
