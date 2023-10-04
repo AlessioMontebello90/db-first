@@ -15,6 +15,11 @@ Buon divertimento e a domani!
 | model       | varchar(50)  | NOTNULL                              |
 | manufacture | year         | NOTNULL                              |
 | KM          | int-unisgned | NULL                                 |
-| fuel        | char(5)      | NOTNULL                              |
+| fuel        | char(1)      | NOTNULL                              |
 | info        | text         | NULL                                 |
 | price       | decimal(7,2) | NULL                                 |
+
+fuel: D (diesel)
+G (gasoline)
+E (elettric)
+H (hybrid)
